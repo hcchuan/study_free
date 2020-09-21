@@ -1,0 +1,11 @@
+----------------------------------------部署须知
+修改.env中的数据库连接，附加数据库
+站点目录指向\laravel\public
+
+#后台安装依赖
+I: & cd I:\work\project\laravel\study_free\laravel & composer install
+若报错：Your requirements could not be resolved to an installable set of packages
+则先执行 composer require doctrine/instantiator "1.0.x-dev" 再安装依赖
+
+#前台安装依赖
+I: & cd I:\work\project\laravel\study_free\admin & yarn install
